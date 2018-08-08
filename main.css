@@ -1,0 +1,88 @@
+.list-group-item{
+    padding: 50px 20px 50px 20px ;
+}
+.footer, .header{
+    background-color: rgb(1, 82, 187);
+    height: 5rem;
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+a.nav-link{
+    color: white;
+}
+.list-group-item{
+    background-color:rgba(0, 174, 255, 0.925) ;
+    opacity: 0.8;
+    color: white;
+}
+.hr{
+    width:90px;
+    height:2px !important;
+    background-color:#22D7E3 ;
+   }
+   
+body{
+    background-color: rgb(183, 226, 243);
+    height: 100%;
+
+}
+.logo{
+    border: 2px solid white;
+    padding: 3px 5px;
+    color:white;
+}
+
+/* blog */
+
+/* team*/
+.Gee{
+    border-radius: 10px;
+    /* width: 350px; */
+    height: 150px;
+    /* margin-left:25px; */
+    border-style:ridge ;
+    box-shadow:  0px -10px 0px rgb(0, 183, 255);
+    border-top:none;
+}
+.rounded-circle{
+    width:80px;
+    height:80px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 40px;
+}
+.Gee1{
+    border-radius: 10px;
+        height: 150px;
+    /* margin-left:25px; */
+    border-style:ridge ;
+    box-shadow:  0px -10px 0px rgba(255, 0, 0, 0.932);
+}
+.Gee2{
+    border-radius: 10px;
+    height: 150px;
+    /* margin-left:25px; */
+    border-style:ridge ;
+    box-shadow:  0px -10px 0px rgb(73, 128, 0);
+}
+.ne{
+    padding-top: 20px;
+}
+
+
+@media (max-width: 767px) {
+    .header{
+        position: fixed;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+ .col-md-4{
+     margin-top: 20px;
+ }
+}
+
